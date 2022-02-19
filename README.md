@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Create a dedicated Bastion host for managing private hosts in the target VPC.
+Terraform module for creating a dedicated Bastion host for managing private hosts in the target VPC.
 
 The **terraform-aws-bastion** module is part of the [Terra4AWS64](https://github.com/serdigital64/terra4aws64) project.
 
@@ -20,9 +20,9 @@ Help on implementing new features and maintaining the code base is welcomed.
 
 ## Repositories
 
-- Terraform Registry: [https://registry.terraform.io/namespaces/serdigital64/terraform-aws-bastion](https://registry.terraform.io/namespaces/serdigital64/terraform-aws-bastion)
-- Module GIT repository: [https://github.com/serdigital64/terraform-aws-bastion](https://github.com/serdigital64/terraform-aws-bastion)
-- Module Documentation: [https://registry.terraform.io/namespaces/serdigital64/terraform-aws-bastion](https://registry.terraform.io/namespaces/serdigital64/terraform-aws-bastion)
+- Terraform Registry: [https://registry.terraform.io/modules/terra4aws64/bastion](https://registry.terraform.io/modules/terra4aws64/bastion)
+- Module GIT repository: [https://github.com/terra4aws64/terraform-aws-bastion](https://github.com/terra4aws64/terraform-aws-bastion)
+- Module Documentation: [https://registry.terraform.io/modules/terra4aws64/bastion](https://registry.terraform.io/modules/terra4aws64/bastion)
 - Parent project: [https://github.com/serdigital64/terra4aws64](https://github.com/serdigital64/terra4aws64)
 
 ## Author
