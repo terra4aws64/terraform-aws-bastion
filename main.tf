@@ -1,9 +1,9 @@
 module "ami" {
-  source = "terra4aws64/bastion/aws-ami"
+  source = "terra4aws64/ami/aws"
 }
 
 module "ec2" {
-  source        = "terra4aws64/bastion/aws-ec2"
+  source        = "terra4aws64/ec2/aws"
   vpc_subnet_id = var.vpc_subnet_id
   ec2_key       = var.ec2_key
   ami_id        = module.ami.amazonlinux2_ami_id
